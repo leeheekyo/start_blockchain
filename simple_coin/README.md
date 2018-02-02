@@ -22,16 +22,24 @@ python app.py --port 5000
 ```
 
 - 형식 변경(body->json)
+
 ![](images/Insomnia_JSON.png)
 
+
 - 연결 확인( **GET** `/transction`  )
+
 ![](images/get_transaction.png)
 
+
 - 거래 추가( **POST** `/transction` , {"sender": "god", "recipient": "golbin", "amount": 10} )
+
 ![](images/post_transaction.png)
 
+
 - 마이닝( **POST** `/mine` )
+
 ![](images/post_mine.png)
+
 
 - 새로은 프로그램 실행
 ```bash
@@ -39,13 +47,19 @@ python app.py --port 5001
 ```
 
 - 노드 추가( **POST** `/node`, {"address": "127.0.0.1:5000"} ) - 5001번 포트에서 실행
+
 ![](images/post_node.png)
 
+
 - 일치( **POST** `/consensus` ) - 5001번 포트에서 실행
+
 ![](images/post_consensus.png)
 
+
 - 체인 확인( **GET** `/chain` ) - 5001번 포트에서 실행
+
 ![](images/get_chain.png)
+
 
 ## 부족한 점(g-coin 참고).
 - [ ] Merkle root implementation
