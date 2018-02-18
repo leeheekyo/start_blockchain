@@ -51,7 +51,7 @@ python app.py --port 5001
 ![](images/post_node.png)
 
 
-- 일치( **POST** `/consensus` ) - 5001번 포트에서 실행
+- 총의( **POST** `/consensus` ) - 5001번 포트에서 실행
 
 ![](images/post_consensus.png)
 
